@@ -1,0 +1,9 @@
+com\british_ariways\services\BritishAirwaysApplication.class
+com\british_ariways\services\controller\FinalResponseForCheckInService.class
+com\british_ariways\services\controller\ServicesController.class
+com\british_ariways\services\model\BritishAirwaysTb.class
+com\british_ariways\services\service\FlightCheckInService.class
+com\british_ariways\services\controller\FilterResponseForCheckInService.class
+com\british_ariways\services\repository\CustomerRepository.class
+com\british_ariways\services\controller\QueryParametersForCheckInService.class
+com\british_ariways\services\service\implementation\FlightCheckInServiceImpl.class

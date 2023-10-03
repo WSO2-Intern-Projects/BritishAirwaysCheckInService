@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: british-checkin-api
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /customers/checkIn:
+    post:
+      tags:
+        - default
+      summary: create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                passengerName: John Smith
+                bookReference: N988233
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
