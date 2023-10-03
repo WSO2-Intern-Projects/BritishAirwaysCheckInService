@@ -5,14 +5,15 @@ import lombok.Setter;
 
 @Setter
 @Getter
+
 public class FilterResponseForCheckInService {
 
     private String flightNumber;
     private String seatNumber;
     private String passengerName;
     private String customerId;
-    private String From;
-    private String To;
+    private String fromWhere;
+    private String whereTo;
     private Integer flightDistance;
 
     public String getFlightNumber() {
@@ -47,20 +48,20 @@ public class FilterResponseForCheckInService {
         this.customerId = customerId;
     }
 
-    public String getFrom() {
-        return From;
+    public String getFromWhere() {
+        return fromWhere;
     }
 
-    public void setFrom(String from) {
-        From = from;
+    public void setFromWhere(String fromWhere) {
+        this.fromWhere = fromWhere;
     }
 
-    public String getTo() {
-        return To;
+    public String getWhereTo() {
+        return whereTo;
     }
 
-    public void setTo(String to) {
-        To = to;
+    public void setWhereTo(String whereTo) {
+        this.whereTo = whereTo;
     }
 
     public Integer getFlightDistance() {

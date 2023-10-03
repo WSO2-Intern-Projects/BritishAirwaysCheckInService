@@ -26,16 +26,16 @@ public class ServicesController {
             filterResponseForCheckInService.setCustomerId(null);
             filterResponseForCheckInService.setFlightDistance(null);
             filterResponseForCheckInService.setPassengerName(null);
-            filterResponseForCheckInService.setFrom(null);
-            filterResponseForCheckInService.setTo(null);
+            filterResponseForCheckInService.setFromWhere(null);
+            filterResponseForCheckInService.setWhereTo(null);
             filterResponseForCheckInService.setSeatNumber(null);
         }else{
             filterResponseForCheckInService.setFlightNumber(britishAirwaysTb.getFlightNumber());
             filterResponseForCheckInService.setCustomerId(britishAirwaysTb.getCustomerId());
             filterResponseForCheckInService.setFlightDistance(britishAirwaysTb.getFlightDistance());
             filterResponseForCheckInService.setPassengerName(britishAirwaysTb.getPassengerName());
-            filterResponseForCheckInService.setFrom(britishAirwaysTb.getFlightFrom());
-            filterResponseForCheckInService.setTo(britishAirwaysTb.getFlightTo());
+            filterResponseForCheckInService.setFromWhere(britishAirwaysTb.getFlightFrom());
+            filterResponseForCheckInService.setWhereTo(britishAirwaysTb.getFlightTo());
             filterResponseForCheckInService.setSeatNumber(britishAirwaysTb.getSeatNumber());
         }
 
